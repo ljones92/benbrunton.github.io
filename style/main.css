@@ -45,7 +45,7 @@ footer{
     opacity:0.6;
     padding:3px;
     cursor:pointer;
-    min-width:40px;
+    min-width:16px;
     transition:opacity 1s;
 }
 
