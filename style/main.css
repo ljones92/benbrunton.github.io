@@ -27,7 +27,7 @@ header .group{
     color:#222;
     margin:10px;
     padding:4px;
-    width:300px;
+    width:250px;
     background-color:#EEE;
     opacity:0.85;
 }
@@ -39,11 +39,23 @@ header .group h5{
 }
 
 header .group ul{
-    float:left;
+    float:right;
     margin:0;
-    padding-left:60px;
     list-style:none;
     font-size:0.9em;
+}
+
+header .group ul li a{
+    float:right;
+}
+
+
+header .group ul li{
+    clear:both;
+}
+
+header .group .contact_icons{
+    float:right;
 }
 
 .clearfix{
