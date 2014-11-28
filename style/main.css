@@ -26,7 +26,7 @@ a:hover{
 header .group{
     color:#222;
     margin:10px;
-    padding:4px;
+    padding:8px;
     width:250px;
     background-color:#EEE;
     opacity:0.85;
@@ -35,7 +35,7 @@ header .group{
 header .group h5{
     float:left;
     margin:0;
-    width:55px;
+    width:95px;
 }
 
 header .group ul{
@@ -43,6 +43,7 @@ header .group ul{
     margin:0;
     list-style:none;
     font-size:0.9em;
+    padding:0;
 }
 
 header .group ul li a{
@@ -71,11 +72,15 @@ footer{
     padding:3px;
     cursor:pointer;
     min-width:16px;
-    transition:opacity 0.5s;
+    transition:opacity 0.2s;
 }
 
 footer:hover{
     opacity:0.85;
+}
+
+footer i{
+    padding-left:1px;
 }
 
 footer:hover .rollover{
@@ -84,15 +89,22 @@ footer:hover .rollover{
 
 footer:hover .hidden_panel{
     width:240px;
-    height:16px;
+    height:18px;
 }
 
 footer .hidden_panel{
     font-size:0.8em;
     width:0;
     height:0;
-    transition:width 0.5s;
+    transition:width 0.15s;
     overflow:hidden;
+    padding:0;
+    margin:0;
+}
+
+footer .hidden_panel .info_wrapper{
+    width:240px;
+    display:inline-block;
 }
 
 footer img{
