@@ -42,10 +42,15 @@ footer{
     bottom:0;
     right:0;
     background-color:#EEE;
-    opacity:0.85;
+    opacity:0.5;
     padding:3px;
     cursor:pointer;
     min-width:40px;
+    transition:opacity 1s;
+}
+
+footer:hover{
+    opacity:0.85;
 }
 
 footer:hover .rollover{
