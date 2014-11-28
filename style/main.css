@@ -13,12 +13,11 @@ body{
 }
 
 header .group{
-    border:1px solid #DDD;
-    margin:5px;
+    margin:10px;
     padding:4px;
     width:300px;
     background-color:#EEE;
-    opacity:0.8;
+    opacity:0.85;
 }
 
 header .group h5{
