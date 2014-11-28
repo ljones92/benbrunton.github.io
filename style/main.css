@@ -46,7 +46,7 @@ footer{
     padding:3px;
     cursor:pointer;
     min-width:16px;
-    transition:opacity 1s;
+    transition:opacity 0.5s;
 }
 
 footer:hover{
@@ -65,7 +65,7 @@ footer:hover .hidden_panel{
 footer .hidden_panel{
     width:0;
     height:0;
-    transition:width 1s;
+    transition:width 0.5s;
     overflow:hidden;
 }
 
