@@ -36,3 +36,35 @@ header .group ul{
 .clearfix{
     clear:both;
 }
+
+footer{
+    position:absolute;
+    bottom:0;
+    right:0;
+    background-color:#EEE;
+    opacity:0.85;
+    padding:3px;
+    cursor:pointer;
+    min-width:40px;
+}
+
+footer:hover .rollover{
+    display:none;
+}
+
+footer:hover .hidden_panel{
+    width:305px;
+    height:16px;
+}
+
+footer .hidden_panel{
+    width:0;
+    height:0;
+    transition:width 1s;
+    overflow:hidden;
+}
+
+footer img{
+    float:right;
+    height:16px;
+}
