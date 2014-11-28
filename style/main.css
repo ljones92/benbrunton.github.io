@@ -1,5 +1,7 @@
+@import url(//fonts.googleapis.com/css?family=Roboto);
+
 body{
-    font-family:sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-image:url('./images/dog.jpg');
     background-position:center;
     background-attachment:fixed;
@@ -41,6 +43,7 @@ header .group ul{
     margin:0;
     padding-left:60px;
     list-style:none;
+    font-size:0.9em;
 }
 
 .clearfix{
@@ -68,11 +71,12 @@ footer:hover .rollover{
 }
 
 footer:hover .hidden_panel{
-    width:305px;
+    width:240px;
     height:16px;
 }
 
 footer .hidden_panel{
+    font-size:0.8em;
     width:0;
     height:0;
     transition:width 0.5s;
