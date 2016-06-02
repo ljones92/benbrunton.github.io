@@ -37,9 +37,11 @@ header .group{
     color:#222;
     margin:10px;
     padding:8px;
-    width:250px;
+    display:inline-block;
+    /*width:250px;*/
     background-color:#EEE;
     opacity:0.85;
+    font-size:1.4em;
 }
 
 header .group h5{
@@ -67,6 +69,10 @@ header .group ul li{
 
 header .group .contact_icons{
     float:right;
+}
+
+header .group .contact_icons a {
+    margin: auto 3px;
 }
 
 .clearfix{
