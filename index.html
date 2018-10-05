@@ -25,7 +25,7 @@
             <span class="rollover"><i class="fa fa-question-circle"></i></span>
             <div class="hidden_panel">
                 <span class="info_wrapper">
-                    <span class="info">© Ben Brunton 2018</span>
+                    <span class="info">© Ben Brunton <span id="copy-date"></span></span>
                     <span> • <a class="info" href="https://github.com">Hosted by Github <img src="style/images/GitHub-Mark-32px.png" height="16px"></a></span>
                 </span>
             </div>
@@ -42,6 +42,8 @@
           ga('create', 'UA-57171523-1', 'auto');
           ga('require', 'displayfeatures');
           ga('send', 'pageview');
+
+          document.getElementById('copy-date').innerHTML = new Date().getFullYear();
         
         </script>
     </body>
